@@ -1,0 +1,36 @@
+<!doctype HTML>
+<HTML>
+<head>
+<meta charset="utf-8">
+<title>basic web design structure</title>
+</head>
+<body>
+<h1>basic web design structure</h1>
+<h2>Documbent head</h2>
+<p>This part of the webpage holds the elements that you not see but make the website functional and findable</p>
+<h2>document body</h2>
+<p>This part of the HTML strcuture holds all the elements that you don't see on the website</p>
+<h2>Header tags</h2>
+<p>These are tags that are assigned to parts of a webpage that gives content hierarchal importance.</p>
+<h2>Make it bold:</h2>
+<p>Wrapping these “b” tags around a word make it appear as <b>bold</b> in appearance</2>
+<h2>Put a slant on it!</h2>
+<p>Wrapping an open and closed “I” tag around a word will make it appear <I>italic.</I></p>
+<button id=”color”>change color</button>
+<script>
+	document.getElementById(‘color’).onclick=changeColor;
+var currentColor=”red”
+	function changeColor(){
+If ( currentColor==”Red” )
+	{document.body.style.color=”blue”;
+	currentColor = “blue”;}
+Else 
+	{document.body.style.color = “red”
+	currentColor = “red”;
+}
+	Return currentColor;
+}
+</script>
+</section>
+</body>
+</HTML>
